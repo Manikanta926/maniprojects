@@ -15,7 +15,9 @@
   }
 
   .content {
-    width: 70%;
+    width: 69%;
+    overflow: hidden;
+    display: table;
     margin: auto;
   }
   
@@ -23,6 +25,7 @@
   border-bottom: 1px solid gray;
   padding-bottom: 8px;
     margin-top: 15px;
+    width: 98%;
   }
   
   .Mydashboard {
