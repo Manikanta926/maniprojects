@@ -1,0 +1,501 @@
+/*.flex-container {
+   display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+  }*/
+@font-face { font-family: 'Open Sans'; font-style: normal; font-weight: 300; src:url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTRa1RVmPjeKy21_GQJaLlJI.woff) format('woff'); }
+* {
+  box-sizing: border-box;
+}
+
+.Emailer {
+  background-color: #ffffff;
+  margin-top:99px;
+  
+}
+
+body {
+    vertical-align: middle;
+}
+
+@media screen and (max-width:1200px){
+    body {
+        vertical-align: middle;
+    }
+   .Emailer {
+     display: inline-block;
+       
+    }
+}
+
+/*.Emailer {
+  width: 1440px;
+  height: 2551px;
+  background-color: #ffffff;
+  margin-top:99px;
+  margin-left: 157px;
+  margin-right: 156px;
+}*/
+
+.Lets-talk {
+  float: left;
+  width: 290px;
+  height: 66px;
+  background-image: linear-gradient(126deg, #ed5f60, #d91084);
+  font-family: OpenSans;
+  font-size: 48px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: left;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Lets-talk .text-style-1 {
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(126deg, #ed5f60, #d91084);
+}
+
+
+.Creating-meaningful {
+  width: 283px;
+  height: 48px;
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  text-align: left;
+  color: #c0c0c0;
+}
+
+.MR-Logo-P3 {
+ 
+  margin-left: 582px;
+  /*float: right;*/
+  width: 255px;
+  height: 70px;
+  margin-top: -37px;
+  opacity: 0.53;
+}/*
+@media all and (max-width: 770px) {
+    .MR-Logo-P3 {
+  
+  margin-left: 862px;
+}
+}*/
+@media all and (max-width: 1199px) {
+    .MR-Logo-P3 {  
+  margin-left: 862px;
+}
+}
+
+.relative {
+    position: relative;
+    width: 100%;
+}
+.pattern-block {
+  width: 1127px;
+  height: 218px;
+ 
+    background-image: url("pattern_block.png");
+    
+    position: relative;
+    top:72px;
+}
+
+.Digital-Marketing-Op {
+    position: absolute;
+    margin-top:39px;
+  margin-left: 71px;
+  width: 985px;
+  height: 149px;
+  font-family: OpenSans;
+  font-size: 48px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.23;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #6b6b6b;
+}
+
+.Digital-Marketing-Op .text-style-1 {
+  letter-spacing: normal;
+}
+
+.With-data-driven-dig {
+    position: absolute;
+  margin-left: 167px;
+  margin-top: 128px;
+/*    top:226px;*/
+  width: 779px;
+  height: 90px;
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #6b6b6b;
+}
+
+.Rectangle {
+  margin-top: 95px;
+  width: 1127px;
+  height: 218px;
+  background-color: #efefef;
+}
+
+/*@media screen and (max-width: 1200px) {
+    .MR-Logo-P3 {
+  
+  margin-left: 800px;
+  width: 255px;
+  height: 70px;
+  margin-top: -22px;
+  opacity: 0.53;
+  float: none;
+}
+    .pattern-block {
+    top:53px;
+}
+    .Digital-Marketing-Op {
+    position: absolute;
+  margin-left: 71px;
+  width: 985px;
+  height: 149px;
+  font-family: OpenSans;
+  font-size: 48px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.23;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #6b6b6b;
+}
+    .Rectangle {
+  margin-top: 94px;
+}
+
+}*/
+.We-understand-the-va {
+  margin-left: 94px;  
+  width: 941px;
+  height: 171px;
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #6b6b6b;
+}
+
+.We-understand-the-va .text-style-1 {
+  font-weight: 600;
+}
+
+.Rectangle2 {
+  margin-top: 33px;
+  width: 1127px;
+  height: 218px;
+  background-image: linear-gradient(134deg, #e45556, #d91084);
+}
+
+.To-give-you-a-taste {
+  margin-left: 46px;
+  width: 1034px;
+  height: 66px;
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.To-give-you-a-taste .text-style-1 {
+  font-weight: 600;
+}
+
+.Rectangle-2 {
+  margin-left: 421px;
+  width: 283px;
+  height: 43px;
+  border: solid 1px #ffffff;
+}
+
+.button {
+    /*position: absolute;*/
+  background-color: transparent;
+}
+
+.Sign-Up-for-a-free-2 {
+  margin-top: 8px;
+  /*margin-left: 4px;*/
+  width: 272px;
+  height: 33px;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #ffffff;
+}
+
+a.Sign-Up-for-a-free-2:hover {
+  text-decoration: none;
+}
+
+.Rectangle3 {
+  margin-top: 34px;
+  width: 1127px;
+  height: 1108px;
+  background-color: #000000;
+}
+
+.Heres-what-you-get {
+  margin-left: 111px;
+  width: 906px;
+  height: 90px;
+  font-family: OpenSans;
+  font-size: 48px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: -0.6px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.All-in-access-to-fea {
+  margin-left: 422px;
+  margin-top: 13.6px;
+  width: 283px;
+  height: 33px;
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Access-to-all-featur {
+  margin-left: 187px;
+  margin-top: 9px;
+  width: 748px;
+  height: 149px;
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.im1 {
+    margin-top: -86px;
+  width: 556px;
+  height: 732px;
+    position: relative;
+}
+
+.shape{
+    position: absolute;
+  margin-left: 521.9px;
+  /*margin-top: -48.1px;*/
+    top:1429.9px;
+  width: 82.2px;
+  height: 82.2px;
+}
+
+.Intelligent-Actionab {
+    position: absolute;
+  margin-left: 381px;
+  /*margin-top: 13px;*/
+    top:1528px;
+  width: 364px;
+  height: 33px;
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Access-to-all-featur2 {
+    position: absolute;
+  margin-left: 238px;
+  /*margin-top: 15px;*/
+    top:1569px;
+  width: 651px;
+  height: 149px;
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Shape2 {
+    position: absolute;
+    top:1672.9px;
+  margin-left: 522.9px;
+  /*margin-top: -46.1px;*/
+  width: 82.2px;
+  height: 83.1px;
+}
+
+.Customized-Action-Pl {
+    position: absolute;
+    top: 1781px;
+  margin-left: 381px;
+  /*margin-top: 23px;*/
+  width: 364px;
+  height: 33px;
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Our-consultants-analyze {
+    position: absolute;
+  margin-left: 238px;
+    top: 1830px;
+  /*margin-top: 15px;*/
+  width: 651px;
+  height: 149px;
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Path-5 {
+  /*margin-top: -55px;*/
+    position: absolute;
+    top:1923px;
+  width: 1130px;
+  height: 2px;
+  border: solid 1px #ffffff;
+}
+
+.So-what-are-you-wait {
+    position: absolute;
+  margin-left: 111px;
+  /*margin-top: 32px;*/
+    top: 1961px;
+  width: 906px;
+  height: 54px;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Rectangle-3 {
+    position: absolute;
+    top:2034px;
+  margin-left: 421px;
+  width: 283px;
+  height: 43px;
+  border: solid 1px #ffffff;
+}
+
+.Sign-Up-for-a-free {
+    margin-top: 8px;
+  width: 272px;
+  height: 33px;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #ffffff;
+}
+
+a.Sign-Up-for-a-free:hover {
+  text-decoration: none;
+}
+
+.MR-Logo-P4 {
+  margin-top: 44px;
+  margin-left: 449px;
+  width: 230px;
+  height: 63px;
+  opacity: 0.53;
+}
+
+.Copyright-2017-L {
+  margin-top: 35px;
+  margin-left: 250px;
+  width: 629px;
+  height: 241px;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #b1b1b1;
+}

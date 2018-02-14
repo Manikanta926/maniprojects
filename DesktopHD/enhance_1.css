@@ -1,0 +1,515 @@
+* {
+    box-sizing: border-box;
+}
+@font-face { font-family: 'Open Sans'; font-style: normal; font-weight: 300; src:url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTRa1RVmPjeKy21_GQJaLlJI.woff) format('woff'); }
+/*.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding: 0 4px;
+}*/
+
+.Desktop-HD {
+  width: 1440px;
+  height: 2293px;
+  background-color: #ffffff;
+/*     background-color: #000000;*/
+  /*margin-top:158px;*/
+    /*margin: 158px 151px 140px 157px;*/
+}
+
+@media all and (max-width: 1200px) {
+    .Desktop-HD {
+  
+  /*margin-left: 800px;*/
+  width: 100%;
+  height: 100%;
+  margin-top: 158px;
+  opacity: 0.53;
+  float: none;
+}
+}
+
+.Lets-talk {
+  width: 290px;
+  height: 84px;
+  background-image: linear-gradient(133deg, #ed5f60, #d91084);
+  font-family: OpenSans;
+  font-size: 48px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: left;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Lets-talk .text-style-1 {
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(133deg, #ed5f60, #d91084);
+}
+
+.Creating-meaningful {
+  margin-top: -9px;
+  width: 390px;
+  height: 66px;
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  text-align: left;
+  color: #c0c0c0;
+}
+
+/*.customDiv {
+	margin: 20PX;
+}*/
+
+.grid {
+  margin-top: 118px;
+  width: 556px;
+  height: 732px;
+  opacity: 1;
+  background-image: url(img/grid.png);
+}
+
+.Digital-Marketing-Op {
+  margin-left: 53px;
+  width: 465px;
+  height: 218px;
+  font-family: OpenSans;
+  font-size: 48px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.23;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #6b6b6b;
+}
+
+.Digital-Marketing-Op .text-style-1 {
+  letter-spacing: normal;
+}
+
+@media screen and (max-width:1201px){
+    .col-md-6 {
+        width: 100%;    
+    }
+    .grid {
+        width: 100%;
+    }
+}
+.Our-Digital-Marketin {
+  margin-left: 55px;
+  margin-top: 75px;
+  width: 465px;
+  height: 496px;
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-align: justify;
+  color: #4a4a4a;
+}
+
+.Rectangle {
+  margin-top: 118px;
+  /*margin-left: 20px;*/
+  width: 556px;
+  height: 732px;
+  background-image: linear-gradient(145deg, #e45556, #d91084);
+}
+
+@media screen and (max-width:1201px){
+    .Rectangle {
+        width: 100%;    
+    }
+    .Our-Digital-Marketin {
+  margin: auto;
+  margin-top: 75px;
+  width: 465px;
+  height: 496px;
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-align: justify;
+  color: #4a4a4a;
+}
+}
+
+.days {
+	margin-left: 49px;
+	margin-top: 26px;
+  width: 204px;
+  height: 171px;
+  font-family: OpenSans;
+  font-size: 144px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.01;
+  letter-spacing: -1.8px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.Day-Free-Trial {
+  margin-left: 55px;
+  width: 275px;
+  height: 43px;
+  font-family: OpenSans;
+  font-size: 32px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.To-know-what-opportu {
+  margin-left: 54px;
+  margin-top: 238px;
+  width: 454px;
+  height: 171px;
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-align: justify;
+  color: #ffffff;
+}
+
+.To-know-what-opportu .text-style-1 {
+  font-weight: bold;
+}
+
+.Rectangle-2 {
+  margin-top: 17px;
+  width: 564px;
+  height: 732px;
+  background-color: #000000;
+}
+.im1 {
+  width: 564px;
+  height: 732px;
+    background-image: url(img/hair.png);
+  opacity: 1;
+}
+
+@media screen and (max-width:1201px){
+    .Rectangle-2 {
+        width: 100%;
+    
+    }
+    .im1 {
+        width:100%;
+    }
+    .To-know-what-opportu {
+  margin-left: auto;
+  margin-top: 238px;
+  width: 454px;
+  height: 171px;
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-align: justify;
+  color: #ffffff;
+}
+}
+
+.Heres-how-it-works {
+  margin-left: 49px;
+  font-family: OpenSans;
+  font-size: 64px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.11;
+  letter-spacing: -0.8px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.Shape {
+    margin-top: 54.4px;
+    margin-left: 54.4px;
+  width: 35.2px;
+  height: 35.6px;
+}
+
+.Shape1 {
+    margin-left: 54.3px;
+    margin-top: 35.4px;
+  width: 35.3px;
+  height: 34.8px;
+}
+
+.Shape2 {
+    margin-left: 54.4px;
+    margin-top: 37.2px;
+  width: 35.1px;
+  height: 35.1px;
+}
+
+.Shape3 {
+    margin-left: 54px;
+    margin-top: 37.8px;
+  width: 36px;
+  height: 36.2px;
+}
+
+
+.Onboard-our-Digital {
+  margin-top: 47px;
+  margin-left: 24px;
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.Well-communicate-wi {
+  margin-left: 54px;
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.8px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.Rectangle-3 {
+  margin-top: 17px;
+  width: 556px;
+  height: 732px;
+  background-color: #efefef;
+}
+
+.Sign-up-for-a-21-day {
+  margin-left: 54px;
+  font-family: OpenSans;
+  font-size: 32px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #747474;
+}
+
+.Sign-up-for-a-21-day .text-style-1 {
+  font-weight: 300;
+}
+
+.Name {
+    margin-left: 57px;
+    margin-top: 170px;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-align: left;
+  color: #747474;
+}
+
+.Path-4 {
+    
+    margin-left: 58px;
+  width: 404px;
+  height: 2px;
+  border: solid 1px #747474;
+}
+
+.Designation {
+  margin-left: 57px;
+  margin-top: 14px;
+  width: 390px;
+  height: 27px;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-align: left;
+  color: #747474;
+}
+
+.Business-E-mail {
+  margin-left: 57px;
+  margin-top: 23px;
+  width: 390px;
+  height: 27px;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-align: left;
+  color: #747474;
+}
+
+.Website {
+  margin-left: 57px;
+  margin-top: 20px;
+  width: 390px;
+  height: 27px;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-align: left;
+  color: #747474;
+}
+
+.Submit {
+  margin-left: 58px;
+  margin-top: 52px;
+  width: 94px;
+  height: 27px;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-align: left;
+  color: #747474;
+}
+
+.go-copy {
+  margin-top: 29px;
+  width: 20px;
+  height: 16px;
+  object-fit: contain;
+}
+
+@media screen and (max-width:1201px){
+    .Rectangle-3 {
+        width: 100%;
+    }
+    
+    .Path-4 {    
+  margin-left: 58px;
+  margin: auto;
+  height: 2px;
+  border: solid 1px #747474;
+}
+}
+
+.Path-12 {
+  margin-left: 4px;
+  margin-top: 65px;
+  width: 1133px;
+  height: 3px;
+  border: solid 1px #9b9b9b;
+}
+
+@media screen and (max-width:1201px){
+    .Path-12 {
+        width: 100%;    
+    }
+}
+
+.MR-Logo-P3 {
+  margin-top: 52px;
+  width: 235px;
+  height: 64px;
+  opacity: 0.5;
+}
+
+.Happy-Tuesday {
+    float: right;
+    margin-top: 52px;
+  width: 149px;
+  height: 36px;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.8;
+  letter-spacing: normal;
+  text-align: left;
+  color: #df3869;
+}
+
+.You-can-follow-us-on {
+    margin-top: 31px;
+  width: 346px;
+  height: 40px;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #9b9b9b;
+}
+
+.You-can-follow-us-on .text-style-1 {
+  letter-spacing: normal;
+}
+
+.Moonraft-Inno {
+    float: right;
+    margin-top: -40px;
+  width: 169px;
+  height: 44px;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: right;
+  color: #9b9b9b;
+}

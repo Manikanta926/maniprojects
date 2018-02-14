@@ -1,0 +1,41 @@
+.parent {
+    width: 1024px;
+    height:800px;
+    margin: auto;
+}
+
+.box {
+    width: 98%;
+    height: 48.5%;
+    margin: 5px;
+    background: red;
+    flex-grow: 2;
+    transition: all 0.5s linear;   
+}
+
+.block {
+    vertical-align: top; 
+    flex-grow: 1;
+    flex-flow: column; 
+    transition: all 0.5s linear;
+}
+
+.boxactive{
+    height: 80%;
+    background: blue;
+}
+
+.boxshrink {
+    height: 17%;
+    background: greenyellow;
+}
+.wrap {
+    width: 1000px;
+    height: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.blockactive {
+    flex-grow: 2;
+}

@@ -1,0 +1,932 @@
+@font-face {
+    font-family: OpenSans-Light;
+    src : url(open-sans/OpenSans-Light.ttf);
+}
+@font-face{
+    font-family:OpenSans-Semibold;
+    src : url(open-sans/OpenSans-Semibold.ttf);
+    
+}
+
+@font-face{
+    font-family:OpenSans-Bold;
+    src : url(open-sans/OpenSans-Bold.ttf);
+    
+}
+
+@font-face{
+    font-family:OpenSans;
+    src : url(open-sans/OpenSans-Regular.ttf);
+    
+}
+
+.flex {
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+    display:box;
+    box-pack:center;
+    box-align:center;
+}
+
+.Desktop-HD {
+  background-color: #ffffff;
+}
+
+.outline {
+    
+  width: 1134px;
+margin: auto;
+  padding-top: 158px;
+}
+ 
+@media screen and (max-width:500px){
+    .Desktop-HD{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .outline {
+        margin-left: 0px;
+    }
+}
+
+.Lets-talk {
+  width: 290px;
+    margin-left: 57px;
+  background-image: linear-gradient(133deg, #ed5f60, #d91084);
+  font-family: OpenSans-Semibold;
+  font-size: 48px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: left;
+  -webkit-background-clip: text;
+    -ms-background-clip:text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Lets-talk .text-style-1 {
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(133deg, #ed5f60, #d91084);
+}
+
+.Creating-meaningful {
+    margin-top:21px;
+    margin-left: 57px;
+  width: 390px;
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  text-align: left;
+  color: #c0c0c0;
+}
+
+.grid {
+  width: 553px;
+  height: 732px;
+  opacity: 1;
+  background-image: url(img/grid.png);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.Digital-Marketing-Op {
+    margin-top: 38px;
+  font-family: OpenSans-Light;
+  font-size: 48px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.23;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #6b6b6b;
+}
+
+.Digital-Marketing-Op .text-style-1 {
+  letter-spacing: normal;
+}
+
+.Our-Digital-Marketin {
+  margin-top: 110px;
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  text-align: justify;
+  color: #4a4a4a;   
+}
+
+@media screen and (max-width:500px){
+    .grid {
+        display: block;
+        width: 100%;
+    }
+    
+    .Digital-Marketing-Op {
+        margin-left: 0px;
+        padding: 5%;
+  width: 80%;
+  height: 218px;
+}
+    .Our-Digital-Marketin {
+        width: 100%;
+        padding: 5%;
+        padding-top: 0%;
+        margin-left: 0px;
+  width: 84%;   
+}
+}
+.Rectangle {
+    margin-left: 20px;
+  width: 556px;
+  height: 732px;
+  background-image: linear-gradient(145deg, #e45556, #d91084);
+    display: inline-block;
+}
+.days {
+  width: 204px;
+  font-family: OpenSans-Light;
+  font-size: 144px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.01;
+  letter-spacing: -1.8px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.Day-Free-Trial {
+    padding-left: 6px;
+    padding-top: 22px;
+  width: 275px;
+  font-family: OpenSans;
+  font-size: 32px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.To-know-what-opportu {
+  margin-top: 238px;
+  width: 454px;
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-align: justify;
+  color: #ffffff;
+}
+
+.To-know-what-opportu .text-style-1 {
+  font-weight: bold;
+}
+
+@media screen and (max-width:500px){
+.Rectangle {
+  margin-top: 17px;
+    margin-left: 0px;
+  width: 100%;
+  height: 732px;
+  background-image: linear-gradient(145deg, #e45556, #d91084);
+    display: block;
+}
+
+.To-know-what-opportu {
+  margin-left: 0px;
+  margin-top: 238px;
+  width: 100%;
+}    
+}
+
+.Rectangle-2 {
+  margin-top: 17px;
+  width: 564px;
+  height: 732px;
+  background-color: #000000;
+    display: inline-block;
+}
+.im1 {
+  width: 556px;
+  height: 732px;
+    position: absolute;
+    opacity: 0.61;
+  
+}
+
+.Heres-how-it-works {
+    position: relative;
+      width: 419px;
+padding-top: 39px;
+  font-family: OpenSans-Light;
+  font-size: 64px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.11;
+  letter-spacing: -0.8px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.time {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.onboard-our-digital{
+    display: inline-block;
+}
+
+.Shape {
+    position: relative;
+    padding-top: 24.4px;
+    cursor: pointer;
+  width: 35.2px;
+  height: 35.6px;
+}
+
+.Shape1 {
+    position: relative;
+    padding-top: 14px;
+  width: 35.3px;
+    cursor: pointer;
+  height: 34.8px;
+    display: inline-block;
+}
+
+.Shape2 {
+    position: relative;
+    margin-top: 19px;
+    cursor: pointer;
+  width: 35.1px;
+  height: 35.1px;
+}
+
+.Shape3 {
+    position: relative;
+    margin-top: 13px;
+    cursor: pointer;
+  width: 36px;
+  height: 36.2px;
+}
+
+
+.Onboard-our-Digital { 
+    position: relative;
+    display: inline-block;
+    padding-left: 21.5px;
+    width: 382px;
+    font-family: OpenSans-Semibold;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.Moonraft-conducts { 
+    position: relative;
+    display: inline-block;   
+      margin-top: 7px;
+    margin-left: 19.5px;
+    width: 382px;
+    font-family: OpenSans-Semibold;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.top{
+    margin-top: 54.4px;
+}
+
+.second {
+    margin-top: 0px;
+}
+
+.Well-communicate-wi {
+    position: relative;
+    margin-top: 23px;
+  font-family: OpenSans-Semibold;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.8px;
+  text-align: left;
+  color: #ffffff;
+}
+
+@media screen and (max-width:500px){
+    .Rectangle-2 {
+  margin-top: 17px;
+  width: 100%;
+    display: block;
+}
+.im1 {
+  width: 92%;
+}
+
+.Heres-how-it-works {
+      width: 100%;
+}
+
+.time {
+    width: 25%;
+}
+
+    .onboard-our-digital {
+        width: 74%;
+    }
+    
+.Shape {
+    position: relative;
+  width: 35.2px;
+}
+
+.Shape1 {
+    position: relative;
+    margin-left: 54.3px;
+    margin-top: 14px;
+  width: 35.3px;
+  height: 34.8px;
+    display: inline-block;
+}
+
+.Shape2 {
+    position: relative;
+    margin-left: 54.4px;
+    margin-top: 19px;
+  width: 35.1px;
+  height: 35.1px;
+}
+
+.Shape3 {
+    position: relative;
+    margin-left: 55px;
+    margin-top: 13px;
+  width: 36px;
+  height: 36.2px;
+}
+
+
+.Onboard-our-Digital {
+  margin-top: 32px;
+    width: 100%;
+}
+
+.Moonraft-conducts { 
+    position: relative;
+    display: inline-block;   
+      margin-top: 7px;
+    margin-left: 19.5px;
+    width: 382px;
+    font-family: OpenSans-Semibold;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.top{
+    margin-top: 54.4px;
+}
+
+.second {
+    margin-top: 0px;
+}
+
+.Well-communicate-wi {
+    position: relative;
+  margin-left: 54px;
+    margin-top: 23px;
+  font-family: OpenSans-Semibold;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.8px;
+  text-align: left;
+  color: #ffffff;
+}
+
+
+}
+
+.Rectangle-3 {
+  margin-top: 17px;
+    margin-left: 9.5px;
+  width: 556px;
+  height: 732px;
+  background-color: #efefef;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.Sign-up-for-a-21-day {
+  font-family: OpenSans-Light;
+  font-size: 32px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #747474;
+}
+
+.Sign-up-for-a-21-day .text-style-1 {
+  font-weight: 600;
+    font-family: OpenSans-Semibold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.position {
+    position: relative;
+}
+
+.Name {
+  width: 390px;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-align: left;
+    outline: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    background-color: transparent;
+  color: #747474;
+}
+
+.form-control {
+display: block; 
+    margin-left: 57px;
+     width: 390px !important; 
+     height: 43px !important; 
+     padding: 20px 0px 0px 0px !important; 
+    font-size: 20px !important;
+      font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+    line-height: normal !important;
+    color: #747474 !important;
+    background-color: transparent !important;
+    outline: none;
+    border: none !important;
+    background: transparent;
+    font-family: OpenSans;
+    letter-spacing: 0.9px;
+    text-align: left;
+    box-shadow: none !important;
+}
+
+.form-group {
+     margin-bottom: 0px !important; 
+}
+
+.help-block {
+    margin-left: 57px;
+    margin-bottom: 0px !important;
+}
+
+.Path-4 {
+    
+    margin-left: 58px;
+  width: 80%;
+  height: 2px;
+  border: dotted 1px #747474;
+    margin-top: 15px
+}
+
+.Website {
+  margin-top: 17px;
+  width: 390px;
+  height: 39px;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-align: left;
+      outline: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    background-color: transparent;
+  color: #747474;
+}
+
+.Submit {
+  font-family: OpenSans-Bold;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.9px;
+        width: 84%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+  text-align: left;
+  color: #747474;
+}
+
+.go-copy {
+  margin-top: 29px;
+  width: 20px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.Path-12 {
+  margin-left: 4px;
+  margin-top: 65px;
+  width: 100%;
+  height: 3px;
+  border: solid 1px #9b9b9b;
+}
+
+.MR-Logo-P3 {
+  margin-top: 52px;
+  width: 235px;
+  height: 64px;
+}
+
+.Happy-day {
+    margin-top: 52px;    
+  width: 162px;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.8;
+  letter-spacing: normal;
+  text-align: right;
+  color: #df3869;
+}
+}
+
+.button {
+
+
+}
+
+.arrow {
+    margin-top: 52px;
+    height: 27px;
+    background-image: url(img/go-copy.png);
+    background-position-x: 108px;
+    background-position-y: 7px;
+    background-repeat: no-repeat;
+}
+
+
+::-webkit-input-placeholder { /* Chrome */
+  transition: opacity 250ms ease-in-out;
+}
+:focus::-webkit-input-placeholder {
+  opacity: 0.5;
+}
+
+
+:-ms-input-placeholder { /* IE 10+ */
+  transition: opacity 250ms ease-in-out;
+}
+:focus:-ms-input-placeholder {
+  opacity: 0.5;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  opacity: 1;
+  transition: opacity 250ms ease-in-out;
+}
+:focus::-moz-placeholder {
+  opacity: 0.5;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  opacity: 1;
+  transition: opacity 250ms ease-in-out;
+}
+:focus:-moz-placeholder {
+  opacity: 0.5;
+}
+
+.firstRow {
+    
+}
+
+.firstRowColumn2 {
+    display: inline-block;
+}
+
+.arrow1 {
+    height: 16%;
+    background: url(img/go-copy@2x.png) no-repeat 40px center;
+}
+
+.firstColumn {
+    height: 40px;
+    margin-top: 54.4px;
+}
+
+.tick {
+    display: inline-block;
+    vertical-align: top;
+    height: 66px;
+}
+
+.Analyse-collected-data {
+    position: relative;
+            display: inline-block;
+  margin-top: 12px;
+  margin-left: 21px;
+    width:382px;
+  font-family: OpenSans-Semibold;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.Measure-consumer-behaviour {
+    position: relative;
+            display: inline-block;
+  margin-top: 6px;
+  margin-left: 21px;
+    width:382px;
+  font-family: OpenSans-Semibold;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.boxes {
+    display: inline-block;
+}
+
+.man {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+.Designation {
+  width: 390px;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-align: left;
+        outline: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    background-color: transparent;
+  color: #747474;
+}
+
+.Business-E-mail {
+    margin-top: 20px;   
+  width: 390px;
+  height: 39px;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-align: left;
+        outline: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    background-color: transparent;
+  color: #747474;
+}
+
+.bor {
+    width: 404px;
+        border-bottom: 1px dashed;
+    border-bottom-color: #747474;
+}
+
+.bod {
+  width: 1133px;
+    margin-top: 65px;
+  border: solid 1px #9b9b9b;
+}
+
+@media screen and (max-width:500px){
+    .bod{
+        width: 100%;
+    }
+}
+
+.logo {
+    float: left;
+    vertical-align: top;
+}
+
+.You-can-follow-us-on {
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+  color: #9b9b9b;
+}
+
+.You-can-follow-us-on .text-style-1 {
+  letter-spacing: normal;
+}
+
+.Moonraft-Inno {
+    margin-top: 28px;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: right;
+  color: #9b9b9b;
+}
+
+@media screen and (max-width:500px){    
+.mobile {
+width: 100%;    
+}
+    
+.MR-Logo-P3 {
+  width: 100%;
+}
+
+.Happy-day {    
+  width: 100%;
+    margin-left: 0px;
+}
+    
+    .logo {
+    width: 49%;
+}
+   
+}
+
+@media screen and (max-width:500px){
+    .You-can-follow-us-on {
+  width: 100%;
+}
+
+.Moonraft-Inno {
+    margin-left: 0px;
+    margin-top: 28px;
+  width: 100%;
+}
+}
+
+
+
+.borde {
+    margin-top: 118px;
+    padding-bottom: 65px;
+    border-bottom: 1px solid #9b9b9b;
+}
+/*
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    -ms-flex-align:center;
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;*/
+
+.border1column {
+    width: 465px;
+    margin-left: 53px;
+}
+
+.border2column {
+    padding-top: 26px;
+    padding-left: 49px;
+}
+
+.border3column {
+    padding-left: 53px;
+}
+
+.innerborder {
+    padding-top: 61px;
+    height: 354px;
+    position: relative;
+    overflow: auto;
+}
+
+.FormData {
+    padding-bottom:8px;
+    margin-top: 20px;
+      width: 390px;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-align: left;
+    outline: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    background-color: transparent;
+  color: #747474;
+}
+
+.border4column {
+    padding-top: 48px;
+    padding-left: 54px;
+}
+
+.formalign {
+    margin-top: 228px;
+}
+
+.text {
+    float: right;
+}
+
+.block1 {
+    height: 77px;
+}
+
+.Rectangle:nth-child(even){
+    margin-left: 20px !important;
+}
+
+.Rectangle-2:nth-child(even){
+    margin-left: 9.5px;
+}
+
+.Rectangle-3:nth-child(odd){
+    margin-left: 0px;
+}
